@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>GAME - GUESS THE NUMBER</title>
+ <link rel="stylesheet" href="styles.css">
+ <script src="script.js" defer></script>
+</head>
+
+<body>
+ <!-- first section : Header details -->
+ <header>
+  <div class="guess-question">
+   <h1 class="main-heading">guess the number</h1>
+   <div class="guess">?</div>
+  </div>
+  <p>NB : Choose a number between 1 to 50</p>
+ </header>
+
+ <!-- second section : input guess num -->
+ <section class="input-section">
+  <h2 class="message">Start Guessing...</h2>
+  <input type="number" class="number" placeholder="Enter number here">
+  <button class="btn check" type="button">Check</button>
+ </section>
+
+ <!-- third section : scores and reset -->
+ <section class="score-section">
+  <div class="score-highscore">
+   <p>💯Score : <span class="score">25</span></p>
+   <p>🥇Highscore : <span class="highscore">0</span></p>
+  </div>
+  <button class="btn again">Start Again</button>
+ </section>
+</body>
+
+</html>

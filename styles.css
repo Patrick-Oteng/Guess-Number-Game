@@ -1,0 +1,83 @@
+@import url('https://fonts.cdnfonts.com/css/games');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Games', sans-serif;
+  box-sizing: inherit;
+}
+
+:root {
+  --color1: #171717;
+  --color2: #242424;
+  --color3: #cccccc;
+  --color4: #999999;
+  --color5: #808080;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  background-color: var(--color1);
+  color: var(--color3);
+}
+
+header .guess-question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+header .guess-question .guess {
+  width: 7.5rem;
+  height: 2rem;
+  background-color: var(--color5);
+  color: var(--color3);
+  font-size: 2rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.6rem;
+  font-size: 1.4rem;
+  color: var(--color1);
+  cursor: pointer;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+.btn:hover {
+  background-color: var(--color5);
+  color: var(--color3);
+}
+
+input[type='number'] {
+  line-height: 1.6;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  border: none;
+}
+
+.score-section .score-highscore {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.score-highscore {
+  margin-bottom: 1rem;
+}
